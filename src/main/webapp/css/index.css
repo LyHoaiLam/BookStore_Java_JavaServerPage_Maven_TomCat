@@ -1,0 +1,31 @@
+.green {
+    color: red;
+    color: green;
+}
+
+
+.img-item {
+    height: auto;
+    width: 220px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+.ul-listNone {
+    margin-left: 25px;
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.ul-listNone li {
+    flex: 0 0 calc(25% - 10px);
+    margin-bottom: 20px;
+}
+
+.custom-ul {
+    width: 350px !important;
+  }
